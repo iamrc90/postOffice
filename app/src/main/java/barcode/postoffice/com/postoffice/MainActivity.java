@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(activity, description, Toast.LENGTH_SHORT).show();
             }
         });
-        mWebview .loadUrl(HOME_URL);
+        mWebview.loadUrl(HOME_URL);
         setContentView(mWebview );
     }
 
@@ -50,19 +50,21 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.about:
                 showAboutPage();
+                return true;
             case R.id.createNew:
                 showHome();
+                return true;
         }
         return false;
     }
 
     private void showHome() {
-        mWebview .loadUrl(HOME_URL);
+        mWebview.loadUrl(HOME_URL);
         setContentView(mWebview );
     }
 
     private void showAboutPage() {
-        mWebview .loadUrl(ABOUT_URL);
+        mWebview.loadUrl(ABOUT_URL);
         setContentView(mWebview );
     }
 
