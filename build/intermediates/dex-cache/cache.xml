@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ripulchhabra/Downloads/PostOffice/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d2308ed67c7af40a0466ca84eafdeb9dc1270723">
+        <dex dex="/Users/ripulchhabra/Downloads/PostOffice/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7cdeb33588150b2914a5493ddd79d125b53192c3/classes.dex" />
+    </item>
+
+</items>
